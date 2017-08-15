@@ -9,15 +9,31 @@ const loadModule = (comMod) => (componentModule) => {
 export default function createRoutes() {
 
   return [
-      {
-       path: '/',
+      {path: '/',
        name: 'home',
        getComponent(nextState, comMod) {
          import('containers/Home')
            .then(loadModule(comMod))
            .catch(errorLoading);
-       },
-     },
+         },
+      },
+      {path: 'About',
+        name: 'About',
+        getComponent(nextState, comMod) {
+          import('containers/About')
+            .then(loadModule(comMod))
+            .catch(errorLoading);
+          },
+        },
+        {path: 'Contact',
+          name: 'Contact',
+          getComponent(nextState, comMod) {
+            import('containers/Contact')
+              .then(loadModule(comMod))
+              .catch(errorLoading);
+            },
+          },
+
      {
       path: '*',
       name: 'notfound',
