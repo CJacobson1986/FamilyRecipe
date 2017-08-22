@@ -2,13 +2,14 @@
 .navBar {
   display:flex;
   flex-direction:row;
-  background:#918f99;
+  background:url('../../images/dark_blue_texture.jpg');
+  background-size: cover;
   width:100%;
-  heigth:15vh;
+  heigth:20vh;
   justify-content:space-between;
   align-items:center;
-  box-shadow:0 0 10px 1px rgba(0,0,0,0.5);
-    -webkit-text-stroke: 1.5px black;
+  box-shadow:10px 10px 10px 1px rgba(0,0,0,0.5);
+  -webkit-text-stroke: 1.5px #FFFFFF;
 }
 
 .siteName {
@@ -16,8 +17,9 @@
   font-size:2em;
   margin-left:15px;
   font-variant:small-caps;
-  color:#330be5;
-  -webkit-text-stroke: .8px black;
+  color:#FFFFFF;
+  font-family: 'Roboto Slab', serif;
+    -webkit-text-stroke: .5px grey;
 }
 
 .nav {
@@ -29,15 +31,21 @@
 }
 
 .navButton {
-  color:#330be5;
+  color:#FFFFFF;
   text-decoration: none;
   font-weight:bold;
   font-variant: small-caps;
   margin-right:15px;
-  -webkit-text-stroke: 1px black;
-  font-size: 1.5em;
+  font-size: 1.25em;
+  font-family: 'Josefin Sans', sans-serif;
+
+
 }
 
 .menuIcon {
   display:none;
 }
+/* font-family: 'Roboto Slab', serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Sedgwick Ave', cursive;*/

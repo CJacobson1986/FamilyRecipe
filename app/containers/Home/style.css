@@ -1,1 +1,5 @@
 /* Home Styles */
+.container {
+  background: #777777;
+  height: 100vh;
+}

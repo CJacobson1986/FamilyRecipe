@@ -26,8 +26,8 @@
     margin:0 auto;
     margin-top:10px;
     border-radius: 5px;
-    color:#330be5;
-      -webkit-text-stroke: .5px black;
+    color:#FFFFFF;
+      -webkit-text-stroke: .5px white;
         box-shadow:0 0 10px 1px rgba(0,0,0,0.5);
   }
 }
